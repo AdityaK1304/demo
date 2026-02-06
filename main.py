@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-data = pd.read_csv(r'https://raw.githubusercontent.com/chandanc5525/demo/refs/heads/main/demo/data/raw/cement.csv')
+data = pd.read_csv(r'https://raw.githubusercontent.com/AdityaK1304/demo/refs/heads/main/data/raw/Concrete_Compressive_Strength.csv')
 
 # Data Preprocessing
 data = data.dropna()  # Remove missing values
